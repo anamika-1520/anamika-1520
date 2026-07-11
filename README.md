@@ -121,7 +121,6 @@ Converts spoken input into optimized, token-efficient prompts while preserving s
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=anamika-1520&theme=react-dark&hide_border=true&bg_color=0D1117&color=ff6ec7&line=8A2BE2&point=00D4FF" width="100%"/>
 
-<img src="https://raw.githubusercontent.com/anamika-1520/anamika-1520/output/github-contribution-grid-snake.svg" width="100%"/>
 
 </div>
 
