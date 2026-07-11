@@ -1,5 +1,9 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6EC7,50:8A2BE2,100:00D4FF&height=250&section=header&text=Hi%20There,%20Im%20Anamika&fontSize=45&fontColor=fff&animation=twinkling&fontAlignY=40&desc=AI%20/%20ML%20Engineer%20%7C%20RAG%20%26%20Multi-Agent%20Systems&descAlignY=58&descSize=19&descColor=fff" width="100%"/>
+
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=26&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Anamika;AI+%2F+ML+Engineer;Building+RAG+%26+Multi-Agent+Systems" alt="Typing SVG" />
+
+</div>
 
 <br>
 
