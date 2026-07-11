@@ -1,159 +1,139 @@
-<h1 align="center">Hi 👋, I'm Anamika Saxena</h1>
+<div align="center">
 
-<h3 align="center">AI Engineer @ DataX | Data Scientist | Generative AI Enthusiast</h3>
+# Anamika Saxena
+### AI/ML Engineer @ DataX &nbsp;·&nbsp; Building NLP systems that read, reason & resolve
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/anamika-saxena-a2a660306/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:24ms0010@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=anamika-1520&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="profile views" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Clinical+NLP+%7C+Citation+Resolution+Pipelines;RAG+%2B+Multi-Agent+Systems+with+LangGraph;Turning+messy+documents+into+structured+truth" />
 
----
+<br>
 
-## 🚀 About Me
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anamika-saxena-a2a660306/)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:24ms0010@gmail.com)
+![Views](https://komarev.com/ghpvc/?username=anamika-1520&color=6C63FF&style=flat-square&label=Profile+Views)
 
-🎓 M.Sc. Mathematics & Computing @ IIT (ISM) Dhanbad
+</div>
 
-💼 Currently working as an **AI/ML Engineer @ DataX**, building NLP pipelines and data systems for real-world document processing
+<br>
 
-🤖 Passionate about AI, Machine Learning, Generative AI & Agentic Systems
+## What I actually do
 
-💡 I build intelligent applications combining LLMs, RAG, AI Agents, ML, and Data Analytics to solve real-world problems
+I work on **NLP pipelines that don't fall apart on real-world data** — the messy, inconsistent, OCR-scarred kind. At DataX, that means resolving citations across hundreds of German clinical guidelines (AWMF), debugging why author-year references silently fail while numbered ones sail through at 95%+, and tracing failures back to their real source — often upstream in extraction, not in the resolver logic everyone blames first.
 
-🌱 Currently deepening expertise in clinical NLP, citation resolution systems, and ESG/regulatory AI tools
+Outside that, I build **RAG systems and multi-agent architectures** that don't just retrieve — they reason, route, and know when they're wrong.
 
----
+```python
+class AnamikaSaxena:
+    def __init__(self):
+        self.role = "AI/ML Engineer @ DataX"
+        self.focus = ["Clinical NLP", "Citation Resolution", "RAG", "Multi-Agent Systems"]
+        self.currently_debugging = "GROBID bibliography extraction failures"
+        self.philosophy = "Fix the root cause, not the symptom"
 
-## 🧠 What I Do
+    def current_stack(self):
+        return {
+            "languages": ["Python", "SQL", "C++"],
+            "ai_ml": ["LangChain", "LangGraph", "RAG", "LLMs", "Prompt Engineering"],
+            "infra": ["FastAPI", "PostgreSQL", "Docker", "GitHub Actions", "Render"],
+            "data": ["Pandas", "NumPy", "Matplotlib", "Seaborn"]
+        }
+```
 
-🔹 Build AI Agents using LangGraph & LangChain
+<br>
 
-🔹 Develop RAG-based applications with Vector Databases
+## Live Activity
 
-🔹 Design & debug large-scale NLP/document extraction pipelines (GROBID, Docling, LLM-based extraction)
+<!--START_SECTION:activity-->
+<!-- This section auto-updates via GitHub Actions - see setup note below -->
+<!--END_SECTION:activity-->
 
-🔹 Create Machine Learning & Deep Learning solutions
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=anamika-1520&theme=react-dark&hide_border=true&area=true" width="100%" />
+</div>
 
-🔹 Work on NLP, Computer Vision & Generative AI projects
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-contributor-stats.vercel.app/api?username=anamika-1520&limit=5&theme=dark&combine_all_yearly_contributions=true">
+  <img alt="snake" src="https://raw.githubusercontent.com/anamika-1520/anamika-1520/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+</div>
 
-🔹 Perform Data Analysis, Visualization & Statistical Modeling
+<div align="center">
 
-🔹 Deploy AI applications using FastAPI, Streamlit & Docker
+![Stats](https://github-readme-stats.vercel.app/api?username=anamika-1520&show_icons=true&theme=react&hide_border=true&count_private=true&include_all_commits=true)
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=anamika-1520&theme=react&hide_border=true)
 
-🔹 Build production backends with PostgreSQL, CI/CD (GitHub Actions), and cloud deployment (Render)
+</div>
 
----
+<br>
 
-## 🛠️ Tech Stack
+## Systems I've built end-to-end
 
-### Programming Languages
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏥 Clinical Citation Resolution Pipeline
+NLP system resolving author-year and numbered citations across AWMF German clinical guidelines. Diagnosed root-cause failures (OCR artifacts, malformed years, DOI leakage), patched normalization + resolution logic, built fallback local resolvers hitting **~98%** on edge-case documents.
+
+`GROBID` `spaCy-style NLP` `Python` `Regex/NER`
+
+</td>
+<td width="50%" valign="top">
+
+### 📰 ZenESG Regulatory Radar
+Production ESG intelligence backend — news ingestion, Groq-LLM parsing, RAG-based relevance ranking, Tavily web intelligence. Migrated SQLite→PostgreSQL, deployed on Render, automated via daily GitHub Actions cron.
+
+`FastAPI` `PostgreSQL` `Groq` `RAG`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 Multi-Agent RAG Chatbot
+LangGraph-based architecture with dedicated Retrieval, SQL, and Tool agents — context-aware reasoning across multi-step queries, served via FastAPI + Streamlit.
+
+`LangGraph` `LangChain` `Vector DB`
+
+</td>
+<td width="50%" valign="top">
+
+### 🎙️ Voice-to-Prompt Optimization Engine
+Converts spoken input into optimized, token-efficient prompts while preserving semantic context — built for real-time LLM interaction.
+
+`Speech-to-Text` `Prompt Engineering`
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## Tech I reach for
+
+<div align="center">
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### AI / ML / GenAI
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge)
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-FF6F00?style=for-the-badge)
 ![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge)
 ![LangGraph](https://img.shields.io/badge/LangGraph-4B32C3?style=for-the-badge)
-![RAG](https://img.shields.io/badge/RAG-0A66C2?style=for-the-badge)
-![LLMs](https://img.shields.io/badge/LLMs-412991?style=for-the-badge)
-![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-FF4B4B?style=for-the-badge)
-![Generative AI](https://img.shields.io/badge/Generative%20AI-8A2BE2?style=for-the-badge)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
-
-### Data Science & Analytics
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel)
-
-### Tools & Platforms
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code)
 
----
+</div>
 
-## 📊 GitHub Stats
+<br>
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=anamika-1520&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anamika-1520&layout=compact&theme=tokyonight" />
-</p>
+## Background
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anamika-1520&theme=tokyonight" />
-</p>
+**M.Sc. Mathematics & Computing**, IIT (ISM) Dhanbad · **IIT JAM 2024** — AIR 406 · Awarded by District Magistrate for Academic Excellence
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anamika-1520&theme=tokyo-night" />
-</p>
+<br>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anamika-1520&theme=tokyonight&no-frame=true&row=1&column=7" />
-</p>
+<div align="center">
 
-> 📌 Note: Replace `anamika-1520` above with your exact GitHub username if different, and ensure your GitHub **"Include private contributions"** setting is ON (Settings → Profile → Contributions) so the green graph reflects your real activity.
+*Open to AI Engineering / ML / Applied NLP conversations →* [**let's talk**](mailto:24ms0010@gmail.com)
 
----
-
-## 🚀 Featured Projects
-
-### 🤖 Multi-Agent RAG Chatbot System
-LangGraph-based multi-agent architecture with Retrieval, SQL & Tool Agents, deployed via FastAPI + Streamlit with context-aware reasoning workflows.
-
-### 🧠 ML Tool-Based AI Agent
-Dynamic ML workflow execution with automated preprocessing, prediction, and multi-step reasoning using AI Agents.
-
-### 🎙️ Voice-Driven AI Prompt Optimization Engine
-Voice-to-Prompt system with prompt refinement, optimization, and token reduction while preserving context.
-
-### 📺 YouTube Insight Chatbot
-End-to-end RAG application for transcript-based question answering using semantic search & vector retrieval.
-
-### 📰 ZenESG Regulatory Radar
-Production ESG news intelligence backend — ingestion, Groq-LLM parsing, RAG-based ranking, and Tavily web intelligence. PostgreSQL-backed FastAPI service deployed on Render with GitHub Actions daily automation.
-
-
----
-
-## 📌 Pinned Repositories
-> Pin your top 6 repos on your GitHub profile (Customize your pins) — suggested picks:
-- Multi-Agent RAG Chatbot
-- ZenESG Regulatory Radar
-- ML Tool-Based AI Agent
-- Clinical Citation Resolution Pipeline
-- Voice-Driven Prompt Optimization Engine
-- YouTube Insight Chatbot
-
----
-
-## 🏆 Achievements
-
-🥇 IIT JAM 2024 Qualified (AIR 406)
-
-🏅 Awarded by District Magistrate for Academic Excellence
-
-🎓 M.Sc. Mathematics & Computing @ IIT (ISM) Dhanbad
-
----
-
-## 📫 Reach Me At
-
-📧 **Email:** 24ms0010@gmail.com
-
-💼 **LinkedIn:** [anamika-saxena](https://www.linkedin.com/in/anamika-saxena-a2a660306/)
-
-💻 **GitHub:** [anamika-1520](https://github.com/anamika-1520)
-
-🚀 **Open to:** AI Engineering | Machine Learning | Generative AI | Data Science roles
-
----
-
-<p align="center"><i>⚡ Building at the intersection of NLP, LLMs, and real-world data pipelines.</i></p>
+</div>
