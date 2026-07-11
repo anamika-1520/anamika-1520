@@ -1,5 +1,4 @@
 <div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6EC7,50:8A2BE2,100:00D4FF&height=250&section=header&text=Hi%20There,%20Im%20Anamika&fontSize=45&fontColor=fff&animation=twinkling&fontAlignY=40&desc=AI%20/%20ML%20Engineer%20%7C%20RAG%20%26%20Multi-Agent%20Systems&descAlignY=58&descSize=19&descColor=fff" width="100%"/>
 
 <br>
