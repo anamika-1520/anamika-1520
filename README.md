@@ -106,9 +106,9 @@ Converts spoken input into optimized, token-efficient prompts while preserving s
 
 ## 🏆 Achievements
 
--🥇 **IIT JAM 2024 Qualified** — AIR 406
--🏅 **Awarded by District Magistrate** for Academic Excellence
--🎓 **M.Sc. Mathematics & Computing**, IIT (ISM) Dhanbad
+- 🥇 **IIT JAM 2024 Qualified** — AIR 406
+- 🏅 **Awarded by District Magistrate** for Academic Excellence
+- 🎓 **M.Sc. Mathematics & Computing**, IIT (ISM) Dhanbad
 
 ---
 
