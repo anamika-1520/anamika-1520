@@ -114,12 +114,14 @@ Converts spoken input into optimized, token-efficient prompts while preserving s
 
 ## 📊 GitHub Activity
 
-<div align="center">
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anamika-1520&theme=radical&hide_border=true&background=0D1117" alt="GitHub Streak" />
+</p>
 
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=anamika-1520&theme=radical&hide_border=true&background=0D1117)
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anamika-1520&theme=react-dark&hide_border=true&bg_color=0D1117&color=ff6ec7&line=8A2BE2&point=00D4FF" alt="GitHub Activity Graph" />
+</p>
 
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=anamika-1520&theme=react-dark&hide_border=true&bg_color=0D1117&color=ff6ec7&line=8A2BE2&point=00D4FF" width="100%"/>
 
 
 </div>
