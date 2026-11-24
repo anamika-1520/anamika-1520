@@ -23,7 +23,7 @@
 
 - 🎓 M.Sc. Mathematics & Computing @ **IIT (ISM) Dhanbad**
 - 🤖 AI/ML Engineer building **RAG pipelines**, **multi-agent systems**, and **NLP applications**
-- 🧠 Deep interest in **LangGraph, LLMs, Vector Databases**, and **Agentic AI**
+- 🧠 Deep interest in **Lanchain,  **LangGraph, LLMs, Vector Databases**, and **Agentic AI**
 - ⚡ I turn messy real-world data into systems that actually work in production
 - 🌱 Always exploring the next layer of Generative AI
 - 📫 Reach me at **24ms0010@gmail.com**
