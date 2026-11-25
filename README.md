@@ -89,7 +89,7 @@ LangGraph-powered architecture with dedicated Retrieval, SQL & Tool agents — c
 Dynamic ML workflow execution with automated preprocessing, prediction & multi-step reasoning.
 
 `Scikit-learn` `AI Agents` `xgboost` 
-
+`Regression`
 </td>
 <td width="50%">
 
